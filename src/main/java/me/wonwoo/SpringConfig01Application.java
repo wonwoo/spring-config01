@@ -12,7 +12,7 @@ public class SpringConfig01Application {
   }
 
   @Bean
-  public Bar01Service barService() {
+  public Bar01Service bar01Service() {
     return new Bar01Service();
   }
 }
